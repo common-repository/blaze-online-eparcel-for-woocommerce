@@ -1,0 +1,116 @@
+.linksync-configuration .hide-tr, #eparcel_sales_order_view .hide-tr, .consignment-form .hide-tr { display: none; }
+.linksync-configuration .show-tr, #eparcel_sales_order_view .show-tr, .consignment-form .show-tr { display: table-row; }
+.linksync-configuration dd {
+  margin-left: 0;
+}
+
+#linksynceparcel table.tablecustom td:first-child {
+	width: 45%;
+}
+#linksynceparcel table.tablecustom td {
+    padding: 0;
+}
+
+th#order_item {
+    width: 115px;
+}
+table.order_items td {
+	border: 0;
+    margin: 0;
+    padding: 0 0 3px
+}
+.bg-orange {
+	background-color: #f66a1e;
+	color: #fff !important;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.bg-yellow {
+	background-color: #ffa10c;
+	color: #fff !important;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.bg-blue {
+	background-color: #4487f5;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+span.notes_head.tips.tooltip.linksynctooltiped {
+    margin: 5px auto;
+    text-align: center;
+}
+td.customers_note.column-customers_note {
+    text-align: center;
+}
+small.meta.email {
+	width: 100%;
+}
+.linksynceparcel-table-form .tablenav a.button, .linksynceparcel-table-form .tablenav a.button-secondary {
+	display: inline-block;
+	margin: 0;
+}
+
+input.new-input{
+	font-size:11px;
+	width:90px;
+}
+#post-query-submit{
+	float: right;
+}
+.column-number_of_articles,.column-is_return_label_printed,.column-is_address_valid,.column-is_next_manifest,.column-is_label_printed{
+	text-align:center;
+}
+th.manage-column {
+	vertical-align:top;
+}
+
+.column-number_of_articles, .column-label, .column-track{
+	text-align:center !important;
+}
+
+#new-buttons-set .button{
+	font-size:11px !important;
+}
+
+li.wp-not-current-submenu ul.wp-submenu{
+	min-width:175px !important;
+}
+div#linksynceparcel_address h3{
+	color: red;
+}
+div#linksynceparcel_address .inside{
+	background-color: #ffffcc;
+    margin-top: 0;
+	word-wrap: break-word;
+	padding-top: 10px;
+}
+
+/* Loading */
+
+div#loading {
+    width: 100%;
+    text-align: center;
+    background-color: #ddd;
+}
+
+div#img-loader {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+div#img-loader img {
+    margin-top: 180px;
+    width: 250px;
+}
